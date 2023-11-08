@@ -103,6 +103,9 @@ body {
   font-size: 1.5em;
   font-style: italic;
 }
+.video {
+  width: 300px;
+}
 /*________________________exitos______________________*/
 #exitos {
   display: flex;
@@ -144,6 +147,9 @@ body {
 .fundador-name {
   color: var(--fire);
 }
+.fundadores-img {
+  width: 300px;
+}
 
 /*_________________Footer______________________*/
 #footer {
@@ -170,4 +176,40 @@ body {
 
 .copyrigth {
   color: var(--text-gray);
+}
+
+@media (max-width: 576px) {
+  #search {
+    display: none;
+  }
+  .lupa {
+    display: none;
+  }
+  .nav-ul {
+    gap: 10px;
+  }
+  .sub-title {
+    text-align: center;
+  }
+  #fundadores {
+    margin-top: 40px;
+  }
+  .fundadores-title {
+    text-align: center;
+  }
+  #exitos {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  .muchotexto {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  .fundadores-p {
+    padding: 10px;
+  }
+  #historia {
+    display: none;
+  }
 }
