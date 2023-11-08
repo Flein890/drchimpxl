@@ -103,9 +103,7 @@ body {
   font-size: 1.5em;
   font-style: italic;
 }
-.video {
-  width: 300px;
-}
+
 /*________________________exitos______________________*/
 #exitos {
   display: flex;
@@ -146,9 +144,6 @@ body {
 }
 .fundador-name {
   color: var(--fire);
-}
-.fundadores-img {
-  width: 300px;
 }
 
 /*_________________Footer______________________*/
@@ -214,5 +209,11 @@ body {
   }
   .copyright {
     text-align: center;
+  }
+  .video {
+    width: 300px;
+  }
+  .fundadores-img {
+    width: 300px;
   }
 }
