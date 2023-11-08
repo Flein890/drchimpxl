@@ -1,0 +1,14 @@
+{
+  "name": "drchimpxl-projecto-webwey",
+  "version": "1.0.0",
+  "description": "La mejor banda de la historia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franco Villanova",
+  "license": "ISC",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
